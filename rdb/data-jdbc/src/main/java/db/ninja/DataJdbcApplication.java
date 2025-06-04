@@ -1,4 +1,4 @@
-package db.ninja.hansanhha;
+package db.ninja;
 
 
 import org.springframework.boot.SpringApplication;
