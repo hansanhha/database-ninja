@@ -9,30 +9,39 @@
 
 프로젝트의 요구사항 및 기타 환경을 고려하여 적절한 데이터베이스와 기술을 선택하고 원활하게 다룰 수 있는 경지에 이르고자 수련하는게 이 레포의 목적이다
 
-레포 디렉토리 구조
-- 아래의 디렉토리 별로 crud, 성능 측정 및 튜닝, 트랜잭션 관리, 정렬/페이징, 벌크 연산, 테스트, 동시성 제어 실습
-- 샤딩/파티셔닝, 레플리케이션은 별도의 디렉토리에서 실습
-- postgresql: Spring Data JDBC 및 Spring Data JPA/querydsl 사용
-- mongodb: Spring Data Mongo 사용
-- redis: Spring Data Redis 및 Redisson 사용
+데이터베이스 유형별/기술 스택별로 crud, 성능 측정 및 튜닝, 트랜잭션 관리, 정렬/페이징, 벌크 연산, 테스트, 동시성 제어 등을 실습한다
+
+샤딩/파티셔닝, 레플리케이션은 별도의 디렉토리에서 연습해본다
+
+#### 목차
+
+관계형 데이터베이스
+- [스프링 데이터 JPA + QueryDSL](./rdb/spring-data-jpa+querydsl)
 
 
 ## 기술 스택
 
-PostgreSQL, MongoDB, Redis, H2 등
+데이터베이스
+- PostgreSQL
+- MongoDB, 
+- Redis, H2 등
 
-Java 21
+언어/프레임워크
+- Java 21, 
+- Spring Boot 3.5.x
+- Spring Data JPA
+- Spring Data JDBC
+- Spring Data Mongo
+- Spring Data Redis
+- Querydsl, Redisson 등
 
-Spring Boot 3.x 
-
-Spring Data JPA/JDBC/Mongo/Redis, Querydsl, Redisson 등
-
-Gradle
-
-Docker, TestContainers
+테스트/빌드 도구
+- Gradle
+- Docker
+- TestContainers
 
 
-## 항목
+## 알아둬야 할 개념들
 
 **DB 설정 및 구성**: 프로파일, 커넥션 풀, 프로퍼티 설정
 
