@@ -7,5 +7,6 @@ include(
     "performance",
     "entity-association",
     "concurrency",
-    "transaction"
+    "transaction",
+    "entity-manager"
 )
