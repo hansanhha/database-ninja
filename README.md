@@ -16,18 +16,18 @@
 #### 목차
 
 관계형 데이터베이스
-- [스프링 데이터 JPA + QueryDSL](./rdb/spring-data-jpa+querydsl)
+- [스프링 데이터 JPA + QueryDSL](./docs)
 
 JPA
-- [엔티티 매니저 (영속성 컨텍스트)](./rdb/spring-data-jpa+querydsl/docs/JPA%20-%20엔티티%20매니저%20(영속성%20컨텍스트).md)
-- [엔티티 ID 전략](./rdb/spring-data-jpa+querydsl/docs/JPA%20엔티티%20-%20ID%20전략.md)
-- [N+1 문제](./rdb/spring-data-jpa+querydsl/docs/JPA%20엔티티%20-%20N+1%20문제.md)
-- [연관 관계](./rdb/spring-data-jpa+querydsl/docs/JPA%20엔티티%20-%20연관관계.md)
-- [@DataJpaTest, @Sql](./rdb/spring-data-jpa+querydsl/docs/테스트%20-%20@DataJpaTest,%20@Sql.md)
+- [엔티티 매니저 (영속성 컨텍스트)](./docs/JPA%20-%20엔티티%20매니저%20(영속성%20컨텍스트).md)
+- [엔티티 ID 전략](./docs/JPA%20엔티티%20-%20ID%20전략.md)
+- [N+1 문제](./docs/JPA%20엔티티%20-%20N+1%20문제.md)
+- [연관 관계](./docs/JPA%20엔티티%20-%20연관관계.md)
+- [@DataJpaTest, @Sql](./docs/테스트%20-%20@DataJpaTest,%20@Sql.md)
 
 스프링
-- [@Transactional](./rdb/spring-data-jpa+querydsl/docs/스프링%20-%20@Transactional.md)
-- [테스트 @Transactional](./rdb/spring-data-jpa+querydsl/docs/테스트%20-%20@Transactional.md)
+- [@Transactional](./docs/스프링%20-%20@Transactional.md)
+- [테스트 @Transactional](./docs/테스트%20-%20@Transactional.md)
 
 테스트
 - [testcontainers](https://github.com/hansanhha/kick-the-testcontainers)

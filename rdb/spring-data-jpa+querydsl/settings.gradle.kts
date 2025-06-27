@@ -3,10 +3,9 @@ plugins {
 }
 
 include(
-    "mini-carrot-market",
+    "example-project",
     "performance",
-    "entity-association",
     "concurrency",
     "transaction",
-    "entity-manager"
+    "entity",
 )
